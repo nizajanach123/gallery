@@ -1,0 +1,36 @@
+body{
+    height: auto;
+}
+@keyframes moveInLeft {
+    0% {
+        opacity: 1;
+        transform: translateX(-420rem); }
+      80% {
+        transform: translateX(0); }
+    100% {
+        opacity: 1;
+        transform: translateX(-420rem); } }
+  
+.Gallery{
+    height: 7rem;
+    width: 65rem;
+    animation-name: moveInLeft;
+    animation-duration: 10s;
+   animation-iteration-count: infinite;
+
+
+  
+}
+.pics{
+   display: inline-flex;
+}
+.Gallery:hover{
+    animation-play-state: paused;
+
+}
+.pic{
+ 
+  height: 20rem;
+  width: 100%;
+} 
+
